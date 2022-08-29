@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+.container {
+    background-color: #f5ebeb;
+}
+
+.topSec {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+}
+
+.backgroundGradientArea {
+    background: linear-gradient(297.99deg, #FFEDBA 16.76%, #EE4D47 92%);
+    width: 80vw;
+    height: 90vh;
+    border-radius: 0 0 4vw 4vw;
+    overflow: hidden;
+}
+
+.backgroundImageArea {
+    padding: 0 5vw;
+    background-image: url(./assets/img/Mask\ Group-2.png);
+    height: 100%;
+    background-size: cover;
+}
+
+header {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header div {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+header nav {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header nav a {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+header button {
+    background-color: #EE4D47;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19px;
+    margin-left: 4vw;
+    height: 6.5vh;
+    width: 10vw;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-transform: uppercase;
+    border-radius: 0.4vw;
+    letter-spacing: 1px;
+
+}
+
+.titleButton {
+    display: flex;
+    padding-top: 8%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 5vw;
+    color: #fff;
+    width: 50%;
+}
+
+.getStartedBtn {
+    background-color: #EE4D47;
+    border: none;
+    height: 6vh;
+    width: 11vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 0.3vw;
+
+}
+
+.imageCar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 27vw;
+}
+
+.imagePeople {
+    position: absolute;
+    bottom: 0;
+    width: 20vw;
+    right: 15%;
+}
+
+.rock {
+    position: absolute;
+    bottom: 10%;
+    left: 40%;
+
+}
+
+.rock2 {
+    position: absolute;
+    bottom: 7%;
+    right: 37%;
+}
+
+.secondSec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5vh;
+    padding: 10vw;
+}
+
+.infoSec {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5vh;
+}
+
+h3 {
+    color: #EE4D47;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 60px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.aboutUsText {
+    color: #402B2B;
+    font-weight: 300;
+    line-height: 40px;
+    font-size: 18px;
+    width: 90%;
+}
+
+.imagePerson {
+    width: 45%;
+}
+
+.infoBlock {
+    background-color: rgba(252, 221, 212, 0.4);
+    margin-top: 7vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2.5vh 4vw;
+    border-left: 10px solid #EE4D47;
+    border-radius: 0.4vw;
+    color: #402B2B;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.thirdSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.howToApplySec {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.howToApplyText {
+    color: #402B2B;
+    font-weight: 300;
+    line-height: 40px;
+    font-size: 18px;
+    width: 81%;
+}
+
+.imageSecondPerson {
+    width: 45%;
+}
+
+.fourthSec {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 6vw;
+    margin-top: 10vh;
+}
+
+h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 48px;
+    line-height: 68px;
+    font-weight: 400;
+    color: #402B2B;
+}
+
+.allClientSec {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4vh;
+    justify-content: space-between;
+
+}
+
+.clientSec {
+    background-color: #fff;
+    width: 23.5%;
+    font-weight: 300;
+    color: #402B2B;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 3vw 7vh 3vw 7vh;
+    border-radius : 0.8vw;
+    box-shadow: rgba(238, 77, 71, 0.1);
+}
+
+.imageNameSec {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+footer {
+    height: 22vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10vh;
+    background-color:#F16353;
+    padding: auto;
+}
+
+footer nav{
+    display: flex;
+    width: 10%;
+    justify-content: space-around;
+    padding: 2vh;
+}
+
+footer p{
+    color: #F8F9FA;
+    font-weight: 700;
+    font-size : 16px;
+    line-height: 30px;
+}
+
+.imageSoc{
+    width: 75%;
+}
