@@ -184,6 +184,7 @@ h3 {
 
 .infoBlock {
     background-color: rgba(252, 221, 212, 0.4);
+    margin-top: 7vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -247,7 +248,6 @@ h2 {
     background-color: #fff;
     width: 23.5%;
     font-weight: 300;
-    font-family: 'Roboto', sans-serif;
     color: #402B2B;
     font-size: 16px;
     line-height: 30px;
@@ -256,11 +256,18 @@ h2 {
     box-shadow: 0px 5px 10px 0px rgba(238, 77, 71, 0.1);
 }
 
+.clientSec p{
+    min-height: 30vh ;
+}
+.clientSec img{
+    margin-right: 2vw;
+}
+
 .imageNameSec {
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-end;
-    align-items: flex-end;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 footer {
@@ -286,6 +293,6 @@ footer p{
     line-height: 30px;
 }
 
-.imageSoc{
+.imageSec{
     width: 75%;
 }
