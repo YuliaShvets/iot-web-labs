@@ -12,23 +12,91 @@
         width: 40%;
     }
 
-    /* header div{
-        flex-direction: row-reverse;
-    } */
-
     header button {
-        width: 55%;
-        font-size: 3vw;
-        border-radius: 1vw;
+        display: none;
+    }
+
+    label {
+        display: block;
+        position: relative;
+        width: 10vw;
+        z-index: 11;
+        height: 10vw;
+    }
+
+    #burgerChecker:checked~label div:nth-of-type(1) {
+        top: 40%;
+        transform: rotate(45deg);
+    }
+
+    #burgerChecker:checked~label div:nth-of-type(2) {
+        opacity: 0;
+    }
+
+    #burgerChecker:checked~label div:nth-of-type(3) {
+        top: 40%;
+        transform: rotate(-45deg);
+    }
+
+    #burgerChecker:checked~.mobileNav {
+        height: 100vh;
+    }
+
+    #burgerChecker:checked~label {
+        position: fixed;
+        right: 5vw;
+    }
+
+    #burgerChecker:checked~label div {
+        background-color: #EE4D47;
+    }
+
+    label div {
+        position: absolute;
+        height: 1vh;
+        background-color: #f5ebeb;
+        width: 100%;
+        transition: 0.3s;
+    }
+
+    label div:nth-of-type(2) {
+        top: 40%
+    }
+
+    label div:nth-of-type(3) {
+        top: 80%
+    }
+
+    .mobileNav__links a {
+        color: #EE4D47;
+        display: flex;
+        margin-top: 10vh;
+        justify-content: center;
+        text-align: center;
+        font-size: 8vw;
     }
 
     h1 {
-        font-size: 10vw;
-        width: 80%;
+        font-size: 11vw;
+        width: 90%;
+    }
+
+    .mobileNav {
+        position: fixed;
+        display: block;
+        top: 0;
+        height: 0;
+        width: 100vw;
+        left: 0;
+        background-color: #f5ebeb;
+        z-index: 10;
+        transition: 0.3s;
+        overflow: hidden;
     }
 
     .titleButton {
         margin-top: 10vh;
+
     }
 
     .getStartedBtn {
@@ -37,14 +105,7 @@
         border-radius: 1vw;
     }
 
-    [for=burger]{
-        display: block;
-        width: 10vw;
-        text-align: center;
-        right: 2vw;
-    }
-
-    header nav {
+    .navigationBtn {
         display: none;
     }
 
@@ -125,6 +186,10 @@
     .allClientSec {
         width: 85vw;
         flex-wrap: wrap;
+    }
+
+    section:hover h3 {
+        transform: scale(130%);
     }
 
     .clientSec {
