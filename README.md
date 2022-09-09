@@ -1,4 +1,5 @@
-# Laboratory work 1
+
+ #Laboratory work 1
 Task : 
 - Create a landing page following the given design (Figma). https://www.figma.com/file/fJKhikm2WvdbmetEvibfhN/LabWork1-V8?node-id=413%3A3
 - Use of semantic tags (header, nav, ul, footer, etc.) wherever is necessary.
