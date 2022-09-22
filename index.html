@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <title>KPOK</title>
+</head>
+
+<body>
+    <header>
+        <h1>
+            KPOK
+        </h1>
+        <div>
+            <label for="searchPlc"></label>
+            <input type="text" placeholder="Search here..." class="searchPlc" id="searchPlc">
+        </div>
+    </header>
+    <aside>
+        <div class="optionSec">
+            <div class="sortSec">
+                <h2>sort:</h2>
+                <div>
+                    <input type="checkbox" name="" id="byPrice" onclick="sortByPrice()">
+                    <label for="byPrice">by price</label>
+                </div>
+            </div>
+            <p>Total price: <span id="totalPrice"></span></p>
+            <button class="createBtn">Create</button>
+    </aside>
+    <main>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
